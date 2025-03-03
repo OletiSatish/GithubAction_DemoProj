@@ -3,7 +3,7 @@ name: Deploy HTML
 on: 
   push:
     branches: 
-      - main  # Runs on pushes to the main branch
+      - master  # Runs on pushes to the main branch
 
 jobs:
   deploy:
